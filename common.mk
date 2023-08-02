@@ -329,6 +329,11 @@ PRODUCT_PACKAGES += \
     libOmxVdec \
     libstagefrighthw
 
+
+# overlay-lineage    
+DEVICE_PACKAGE_OVERLAYS += \
+    $(LOCAL_PATH)/overlay-lineage
+
 # OPlusExtras
 PRODUCT_PACKAGES += \
     OPlusExtras
