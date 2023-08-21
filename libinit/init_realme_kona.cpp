@@ -106,7 +106,7 @@ void vendor_load_properties() {
     search_variant(variants);
     
     // Misc
-    property_override("ro.rising.chipset", "Qualcomm® Snapdragon® 870 5G");
+    property_override("ro.rising.chipset", "Snapdragon® 865 5G");
     property_override("ro.rising.device", "Realme X50 Pro");
     property_override("ro.rising.maintainer", "AAMIRR ALI");
 }
