@@ -30,6 +30,10 @@ $(call inherit-product, packages/apps/ViPER4AndroidFX/config.mk)
 # ANT
 PRODUCT_PACKAGES += \
     com.dsi.ant@1.0.vendor
+    
+# RemovePackages
+PRODUCT_PACKAGES += \
+    RemovePackages
 
 # Audio
 PRODUCT_PACKAGES += \
