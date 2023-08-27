@@ -35,6 +35,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     RemovePackages
 
+# Aosp Clock
+PRODUCT_PACKAGES += \
+    aosp_clock
+
 # Audio
 PRODUCT_PACKAGES += \
     android.hardware.audio.service \
