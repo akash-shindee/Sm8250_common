@@ -575,7 +575,7 @@
     <integer name="config_defaultRefreshRate">0</integer>
 
      <!-- Set the value for screen brightness while in Doze state. -->
-     <integer name="config_screenBrightnessDoze">95</integer>
+     <integer name="config_screenBrightnessDoze">17</integer>
 
     <!-- Power Management: Specifies whether to decouple the auto-suspend state of the
          device from the display on/off state.
