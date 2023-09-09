@@ -44,4 +44,7 @@
     <bool name="flag_combined_qs_headers">true</bool>
     <bool name="flag_umo_turbulence_noise">true</bool>
     
+    <!-- Update battery info every second when device is charging -->
+    <bool name="config_alternateFastchargeInfoUpdate">true</bool>
+    
 </resources>
