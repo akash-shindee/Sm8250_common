@@ -321,6 +321,7 @@ PRODUCT_PACKAGES += \
     OPlusCarrierConfigResCommon \
     OPlusExtrasResCommon \
     OPlusFrameworksResCommon \
+    OPlusNfcResCommon \
     OPlusSettingsResCommon \
     OPlusSystemUIResCommon \
     OPlusTetheringResCommon \
