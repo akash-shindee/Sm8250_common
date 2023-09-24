@@ -341,9 +341,9 @@ PRODUCT_PACKAGES += \
     libstagefrighthw
 
 
-# overlay-lineage    
+# overlay-aosp    
 DEVICE_PACKAGE_OVERLAYS += \
-    $(LOCAL_PATH)/overlay-lineage
+    $(LOCAL_PATH)/overlay-aosp
 
 # OPlusExtras
 PRODUCT_PACKAGES += \
