@@ -74,7 +74,6 @@ vendor/lib64/hw/com.dsi.ant@1.0-impl.so
 # Audio libraries
 odm/lib/libaudioEngineerTest.so
 vendor/lib/soundfx/libasphere.so
-vendor/lib/soundfx/libqcbassboost.so
 vendor/lib/soundfx/libqcreverb.so
 vendor/lib/soundfx/libqcvirt.so
 vendor/lib/soundfx/libshoebox.so
@@ -1705,6 +1704,7 @@ odm/etc/init/vendor.oplus.hardware.oplusSensor@1.0-service.rc
 odm/etc/vintf/manifest/manifest_oplusSensor.xml
 odm/lib64/liboplus_service.so
 odm/lib64/vendor.oplus.hardware.oplusSensor@1.0.so
+system_ext/framework/vendor.qti.hardware.sensorscalibrate-V1.0-java.jar
 vendor/bin/hw/vendor.qti.hardware.sensorscalibrate@1.0-service
 vendor/bin/init.qcom.sensors.sh
 vendor/bin/sensors.qti
