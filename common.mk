@@ -131,7 +131,7 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_PACKAGES += \
     libcamera2ndk_vendor \
-    libstdc++.vendor
+    libstdc++_vendor
 
 PRODUCT_PACKAGES += \
     GCamGOPrebuilt-V4
