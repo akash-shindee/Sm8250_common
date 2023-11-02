@@ -130,8 +130,7 @@ BOARD_KERNEL_CMDLINE := \
     msm_rtb.filter=0x237 \
     reboot=panic_warm \
     service_locator.enable=1 \
-    swiotlb=2048 \
-    androidboot.selinux=permissive
+    swiotlb=2048
 
 KERNEL_CUSTOM_LLVM := true
 KERNEL_FULL_LLVM := true
