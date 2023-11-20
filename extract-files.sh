@@ -60,6 +60,9 @@ fi
 
 function blob_fixup() {
     case "${1}" in
+        product/etc/sysconfig/com.android.hotwordenrollment.common.util.xml)
+            sed -i "s|my_product|product|" "${2}"
+            ;;
         vendor/etc/msm_irqbalance.conf)
             sed -i "s/IGNORED_IRQ=27,23,38$/&,115,332/" "${2}"
             ;;
