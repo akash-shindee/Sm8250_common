@@ -45,6 +45,22 @@
         </interface>
     </hal>
     <hal format="hidl" optional="true">
+        <name>android.hardware.graphics.allocator</name>
+        <interface>
+            <name>IAllocator</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+    <hal format="hidl" optional="true">
+        <name>vendor.lineage.touch</name>
+        <transport>hwbinder</transport>
+        <version>1.0</version>
+        <interface>
+            <name>ITouchscreenGesture</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+    <hal format="hidl" optional="true">
         <name>vendor.nxp.nxpnfc</name>
         <version>2.0</version>
         <interface>
@@ -62,19 +78,19 @@
         </interface>
     </hal>
     <hal format="hidl" optional="true">
+        <name>vendor.oplus.hardware.binderstats</name>
+        <version>1.0</version>
+        <interface>
+            <name>IBinderStats</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+    <hal format="hidl" optional="true">
         <name>vendor.oplus.hardware.biometrics.fingerprint</name>
         <version>2.1</version>
         <interface>
             <name>IBiometricsFingerprint</name>
             <instance>default</instance>
-        </interface>
-    </hal>
-    <hal format="hidl" optional="true">
-        <name>vendor.oplus.hardware.cameraextension</name>
-        <version>1.0</version>
-        <interface>
-            <name>ICameraExtensionService</name>
-            <instance>cameraextensionservice</instance>
         </interface>
     </hal>
     <hal format="hidl" optional="true">
@@ -94,6 +110,22 @@
         </interface>
     </hal>
     <hal format="hidl" optional="true">
+        <name>vendor.oplus.hardware.charger</name>
+        <version>1.0</version>
+        <interface>
+            <name>ICharger</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+    <hal format="hidl" optional="true">
+        <name>vendor.oplus.hardware.cameraextension</name>
+        <version>1.0</version>
+        <interface>
+            <name>ICameraExtensionService</name>
+            <instance>cameraextensionservice</instance>
+        </interface>
+    </hal>
+    <hal format="hidl" optional="true">
         <name>vendor.oplus.hardware.engcamera</name>
         <version>1.0</version>
         <interface>
@@ -110,12 +142,28 @@
         </interface>
     </hal>
     <hal format="hidl" optional="true">
+        <name>vendor.oplus.hardware.handlefactory</name>
+        <version>1.0</version>
+        <interface>
+            <name>IHandleFactory</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+    <hal format="hidl" optional="true">
         <name>vendor.oplus.hardware.ims</name>
         <version>1.0</version>
         <interface>
             <name>IOplusImsRadio</name>
             <instance>oplusimsradio0</instance>
             <instance>oplusimsradio1</instance>
+        </interface>
+    </hal>
+    <hal format="hidl" optional="true">
+        <name>vendor.oplus.hardware.midasdev</name>
+        <version>1.0</version>
+        <interface>
+            <name>IMidasDev</name>
+            <instance>default</instance>
         </interface>
     </hal>
     <hal format="hidl" optional="true">
@@ -127,7 +175,7 @@
         </interface>
     </hal>
     <hal format="hidl" optional="true">
-        <name>vendor.oplus.hardware.orms.ormsHalService</name>
+        <name>vendor.oplus.hardware.orms</name>
         <version>1.0</version>
         <interface>
             <name>IOrmsHalProxy</name>
