@@ -246,7 +246,6 @@ PRODUCT_PACKAGES += \
     fstab.qcom.ramdisk \
     init.class_main.sh \
     init.oplus.rc \
-    init.oplus_extras.rc \
     init.oplus.sh \
     init.qcom.early_boot.sh \
     init.qcom.post_boot.sh \
@@ -333,18 +332,13 @@ PRODUCT_PACKAGES += \
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay-lineage
 
-# OPlusExtras
-PRODUCT_PACKAGES += \
-    OPlusExtras
 
 # Overlays
 $(call inherit-product, hardware/oplus/overlay/qssi/qssi.mk)
 
 PRODUCT_PACKAGES += \
     CarrierConfigResCommon \
-    EvolutionFrameworksResCommon \
     FrameworksResTarget \
-    OPlusExtrasResCommon \
     OPlusCarrierConfigResCommon \
     OPlusFrameworksResCommon \
     OPlusSettingsResCommon \
